@@ -50,3 +50,20 @@ LeetCode:
 	Runtime: 46ms
 	Memory Usage: 13.9MB
 """
+
+# # one-line option
+# def heightChecker(heights: List[int]):
+# 	# iterate over heights and a sorted heights list
+# 	# return the sum of indices where they don't match
+# 	return sum(x != y for x, y in zip(heights, sorted(heights)))
+
+# if __name__ == "__main__":
+# 	print(heightChecker([1,1,4,2,1,3]))
+# 	print(heightChecker([5,1,2,3,4]))
+# 	print(heightChecker([1,2,3,4,5]))
+
+"""
+LeetCode:
+	Runtime: 40ms
+	Memory Usage: 13.8MB
+"""
