@@ -34,7 +34,7 @@ def pivotIndex(nums: List[int]):
 			return index
 
 		# recalculate the leftSum
-		leftSum = leftSum + value
+		leftSum += value
 
 	# default to return -1
 	return -1
